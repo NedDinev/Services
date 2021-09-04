@@ -1,0 +1,38 @@
+body{
+    font-family:'OpenSans', 'Helvetica', 'sans-serif' ;
+    background-color: #F0F0E8;
+}
+
+
+header h1 {
+color: #009288;
+font-size: 56px;
+font-weight: 800;
+text-align: center;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 900;
+    color: #92979F;
+text-align: center;
+
+}
+
+main{
+width: 900px;
+    margin:auto;
+    margin-top: 5%;
+}
+
+article{
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    opacity: 55%;
+}
+
+article h1{
+    font-family: 'sans-serif' ;
+    
+}
