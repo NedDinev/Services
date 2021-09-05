@@ -1,38 +1,47 @@
-body{
-    font-family:'OpenSans', 'Helvetica', 'sans-serif' ;
-    background-color: #F0F0E8;
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url("fonts/OpenSans-ExtraBold.ttf");
 }
 
+body {
+  font-family: "OpenSans-ExtraBold", "Helvetica", "sans-serif";
+  background-color: #f0f0e8;
+}
 
 header h1 {
-color: #009288;
-font-size: 56px;
-font-weight: 800;
-text-align: center;
+  color: #009288;
+  font-size: 56px;
+  font-weight: 800;
+  text-align: center;
 }
 
 header p {
-    font-size: 18px;
-    font-weight: 900;
-    color: #92979F;
-text-align: center;
-
+  font-size: 18px;
+  font-weight: 900;
+  color: #92979f;
+  text-align: center;
 }
 
-main{
-width: 900px;
-    margin:auto;
-    margin-top: 5%;
+main {
+  width: 980px;
+  margin: auto;
+  margin-top: 5%;
 }
 
-article{
-    display: inline-block;
-    width: 220px;
-    text-align: center;
-    opacity: 55%;
+article {
+  display: inline-block;
+  width: 220px;
+  text-align: center;
+  opacity: 55%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-article h1{
-    font-family: 'sans-serif' ;
-    
+article h1 {
+  font-family: "OpenSans-ExtraBold";
+}
+
+article p {
+  font-family: "OpenSans";
+  font-size: 20px;
 }
